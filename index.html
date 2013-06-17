@@ -3,9 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Your Honeydew List!</title>
-	 
-		<link rel="stylesheet" href="css/main.css" type="text/css" />
-
+	 	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	 	<script type="text/javascript" src="jquery.js"></script>
 	</head>
 	 
 	<body id="index" class="home">
@@ -17,10 +16,14 @@
 			<p id="notepadtop">Add your items to this list</p>
 			<input id="addItems" type="text">
 			<div id="basket">
-				<ul id="listItems">
-					<li>Pizza</li>
+				<ul id="list">
+					<li class="items"><input class="checkbox" type="checkbox"><span>Pizza</span></li>
+					<li class="items"><input class="checkbox" type="checkbox"><span>Gluten Free Bread</span></li>
 				</ul>
-			</div>	
+			</div>
+			<footer>
+				<button>Delete Items</button>
+			</footer>	
 		</div>
 	
 		<script type="text/javascript" src="js/scripts.js"></script>

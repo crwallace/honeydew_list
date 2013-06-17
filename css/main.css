@@ -14,6 +14,11 @@ header{
 	text-align: center;
 }
 
+span{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
 #container{
 	background: url(../img/notepaper.png) no-repeat center center;
 	-webkit-background-size: cover;
@@ -21,25 +26,60 @@ header{
 	-o-background-size: cover;
 	background-size: cover;
 	width: 560px;
-	height: 600px;
+	height: 670px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid green;
+	padding-top: 0px;
 	text-align: center; 
 }
 
-#notepaper{
-	height: 600px;
+#notepadtop{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	font-size: 30px;
+	text-decoration: underline;
+	padding-top: 25px;
+}
+
+#addItems{
+	height: 20px;
+	width: 300px;
 }
 
 #basket{
-	border: 2px solid #1111ee;
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 22px;
 }
 
-#listItems{
+#list{
 	list-style-type: none;
 	text-align: left;
+}
+
+.items{
+	margin-bottom: 15px;
+}
+
+.collected{
+	color: #B2B2B2;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 160px;
+	height: 25px;
+	margin-left: 340px;
+	margin-bottom: -80px;
+}
+
+button{
+	background: red;
+	color: white;
+	border-radius: 
 }
