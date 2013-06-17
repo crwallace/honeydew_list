@@ -1,7 +1,45 @@
+*{
+	font-family: arial, sans-serif;
+}
 html{
 	background: url(../img/produce.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+}
+
+header{
+	color: white;
+	text-align: center;
+}
+
+#container{
+	background: url(../img/notepaper.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 560px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid green;
+	text-align: center; 
+}
+
+#notepaper{
+	height: 600px;
+}
+
+#basket{
+	border: 2px solid #1111ee;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listItems{
+	list-style-type: none;
+	text-align: left;
 }
