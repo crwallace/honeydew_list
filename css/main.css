@@ -9,6 +9,12 @@ html{
 		background-size: cover;
 }
 
+body{
+	width: 960px;
+	margin-right: auto;
+	margin-left:  auto;
+}
+
 header{
 	color: white;
 	text-align: center;
@@ -19,6 +25,14 @@ span{
 	font-weight: bold;
 }
 
+.hide{
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+
 #container{
 	background: url(../img/notepaper.png) no-repeat center center;
 	-webkit-background-size: cover;
@@ -27,14 +41,15 @@ span{
 	background-size: cover;
 	width: 560px;
 	height: 670px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 200px;
 	padding-top: 0px;
 	text-align: center; 
+	float: center;
+	display: inline-block;
 }
 
 #notepadtop{
-	margin-top: 25px;
+	margin-top: -2px;
 	margin-bottom: 10px;
 	font-weight: bolder;
 	font-size: 30px;
@@ -74,13 +89,11 @@ span{
 	color: white;
 }
 
-footer{
-	position: absolute;
-	bottom: 0;
-	width: 160px;
-	height: 25px;
-	margin-left: 340px;
-	margin-bottom: -80px;
+aside{
+	float: right;
+	display: inline-block;
+	margin-right: 110px;
+	margin-top: 50px;
 }
 
 button{
@@ -90,5 +103,7 @@ button{
 }
 
 #delete{
-	position: fixed;
+	height: 80px;
+	width: 80px;
 }
+
