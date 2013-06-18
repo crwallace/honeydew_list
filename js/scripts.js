@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$('#addItems').keypress(function(e) {
 	    if (e.which == 13) {
 	        console.log($('#addItems').val());
+	        $('#list').append('#items').text($('#addItems').val().add('input'));
 	    }
 	});
 	
