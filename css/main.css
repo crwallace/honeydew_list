@@ -20,6 +20,12 @@ header{
 	text-align: center;
 }
 
+h2{
+	font-size: 70px;
+	line-height: 10px;
+	margin-bottom: 40px;
+}
+
 span{
 	margin-left: 10px;
 	font-weight: bold;
@@ -39,27 +45,32 @@ span{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 560px;
-	height: 670px;
-	margin-left: 200px;
+	width: 660px;
+	height: 800px;
+	margin-left: 130px;
 	padding-top: 0px;
-	text-align: center; 
+	text-align: center;
 	float: center;
 	display: inline-block;
 }
 
 #notepadtop{
-	margin-top: -2px;
+	margin-top: -1px;
 	margin-bottom: 10px;
 	font-weight: bolder;
 	font-size: 30px;
-	text-decoration: underline;
 	padding-top: 25px;
+}
+
+.notes{
+	line-height: 10px;
+	font-style: italic;
 }
 
 #addItems{
 	height: 20px;
 	width: 250px;
+	margin-top: 15px;
 }
 
 #basket{
@@ -72,10 +83,12 @@ span{
 #list{
 	list-style-type: none;
 	text-align: left;
+	margin-top: -5px;
 }
 
 .items{
 	margin-bottom: 15px;
+	margin-top: -5px;
 }
 
 .collected{
@@ -105,5 +118,8 @@ button{
 #delete{
 	height: 80px;
 	width: 80px;
+	margin-left: -100px;
+	z-index: 1000;
+	position: relative;
 }
 
